@@ -36,15 +36,16 @@ This is a
 multiline string
  ')
 
-//
-
-Template strings
+//Template strings
 const name = 'World'
 const message = 'Hello ${name}"
 console.log(message)
+
 // prints "Hello World"
+
 Exponent operator
 const byte = 2 ** 8
+
 // Same as: Math.pow(2, 8)
 Spread operator
 const a = [1, 2]
